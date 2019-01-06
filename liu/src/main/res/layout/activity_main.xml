@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#eeeeee"
+    tools:context=".MainActivity"  >
+
+
+
+    <com.example.liu.TitleBarView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        ></com.example.liu.TitleBarView>
+
+
+    <com.example.liu.WeekGroupNameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:textColor="#00ff00"
+        android:text="最近搜索"
+        />
+
+
+    <com.example.liu.WeekFlowLayout
+        android:id="@+id/fl_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        ></com.example.liu.WeekFlowLayout>
+
+
+    <com.example.liu.WeekGroupNameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:textColor="#00f"
+        android:text="搜索发现"
+        />
+
+
+
+
+    <com.example.liu.WeekFlowLayout
+        android:id="@+id/fl_hot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        ></com.example.liu.WeekFlowLayout>
+
+    <com.example.liu.WeekGroupNameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:textColor="#ff00"
+        android:text="常用分类"
+        />
+
+
+
+    <com.example.liu.WeekFlowLayout
+        android:id="@+id/fl_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        ></com.example.liu.WeekFlowLayout>
+
+
+</LinearLayout>
